@@ -16,7 +16,6 @@ const Home = ()=>{
     },[])
     return (
         <>
-        <div>123</div>
         <div className="home-page">
         <div className="text-zone">
             <h1>Hi, <br/> I'm

@@ -80,6 +80,11 @@
             content:"CONTACT";
         }
     }
+    a.contact-link{
+        &:after{
+            content:"Project";
+        }
+    }
     a.active{
         svg{
             color:#ffd700;

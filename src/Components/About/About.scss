@@ -18,15 +18,13 @@
             position:relative;
             margin-bottom:40px;
             left:10px;
-            // &::before{
-            //     content:"<>"
-            // }
+
         }
         p{
             font-style:13px;
             color:#fff;
             font-family:sans-serif;
-            font-weight:300;
+            font-weight:500;
             min-width:fit-content;
             animation:pulse 1s;
             &:nth-of-type(1){
@@ -46,12 +44,22 @@
 .stage-cube-cont{
     width:50%;
     height:100%;
-    top:0;
+    top:-10%;
     padding-top:18%;
     margin-left:0;
     position:absolute;
     right:0;
     overflow:hidden;
+    h1{
+        font-size:53px;
+        font-family:"Coolvetica";
+        color:#ffd700;
+        font-weight:400;
+        margin-top:0;
+        position:relative;
+        margin-bottom:40px;
+        left:10px;
+    }
 
 }
 .cubespinner{
