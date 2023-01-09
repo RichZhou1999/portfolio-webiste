@@ -1,0 +1,22 @@
+.task_frame{
+    display: block;
+    position:absolute;
+    top:10%;
+    left:20%;
+    .abstract_style{
+        color:white;
+        font-size: 50px;
+    }
+
+}
+.stack_frame{
+    display: flex;
+}
+.video_frame{
+    display:block;
+    position:relative;
+    left:10%;
+    // justify-content: space-between;
+    // align-items: center;
+    // jus
+}

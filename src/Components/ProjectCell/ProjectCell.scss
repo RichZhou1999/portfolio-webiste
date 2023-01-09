@@ -1,0 +1,19 @@
+.project_cell_frame{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width:70%;
+        margin:1vw;
+    }
+    div{
+        color:white;
+        font-size: 20px;
+        // display: flex;
+        // flex-wrap: wrap;
+    }
+}
+// .cell_img{
+//     width:50%
+// }

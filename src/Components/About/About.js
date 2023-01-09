@@ -19,13 +19,20 @@ const About = ()=>{
                     />
                 </h1> 
                 <p>
-                My name is RRRRRRRRRRRRRRRRRRRRRRRRRRRR
+                My name is Yihua Zhou. Now I am a master's student at UC Berkeley,majoring in systems engineering.<br/>
+                I am a self-motivated and diligent person. Also I am keen on coding.
+                I always get great joy in the process of coding.
                 </p>
                 <p>
-                My name is RRRRRRRRRRRRRRRRRRRRRRRRRRRR
+                I want to make the world different, even just a little, by using my 
+                knowlegde and skills. 
+                I believe that interest can stimulate power. So I am looking for a specific task that I am interested in and 
+                ready to devote myself in the field of tech.
                 </p>
                 <p>
-                My name is RRRRRRRRRRRRRRRRRRRRRRRRRRRR
+                I am now looking for an intership working as a software development engineer. <br/>
+                Feel free to contact me and 
+                I am open to any chances.
                 </p>
 
             </div>
