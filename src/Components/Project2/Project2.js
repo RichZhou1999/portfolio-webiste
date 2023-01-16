@@ -6,6 +6,11 @@ import moviehub4 from "../../assets/images/moviehub4.png"
 import ProjectCell from "../ProjectCell/ProjectCell"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3, faGitAlt, faJava, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom';
+import LaunchIcon from '@mui/icons-material/Launch';
+import { faLink } from "@fortawesome/free-solid-svg-icons"
+import Button from '@mui/material/Button';
+
 
 const Project2 = ()=>{
 
@@ -22,7 +27,9 @@ const Project2 = ()=>{
 
     return (<>
         <div className="task_frame">
-        <div className="abstract_style"> Movie Hub</div>
+        <div className="abstract_style"> Movie Hub
+        <Button startIcon={<LaunchIcon/>} color="primary" target="__blank" href={`http://moviehub-recommend.s3-website-us-west-1.amazonaws.com`}> </Button>  
+        </div>
         <div className="stack_frame">
         <FontAwesomeIcon icon={faPython} color="#5ED4F4" fontSize={30} className='icon_style' style={{margin:"5px"}}/>
         <FontAwesomeIcon icon={faReact} color="#5ED4F4" fontSize={30} className='icon_style' style={{margin:"5px"}}/>

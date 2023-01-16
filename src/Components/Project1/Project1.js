@@ -11,6 +11,9 @@ import { faCss3, faGitAlt, faJava, faJsSquare, faPython, faReact } from "@fortaw
 import React, { useRef} from 'react'
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 import {SiSpringboot} from 'react-icons/si'
+import LaunchIcon from '@mui/icons-material/Launch';
+import { faLink } from "@fortawesome/free-solid-svg-icons"
+import Button from '@mui/material/Button';
 
 const Project1 = ()=>{
 
@@ -35,10 +38,13 @@ const Project1 = ()=>{
     vidRef.current.play();
     }
 
+    
     return (<>
         <div className="task_frame">
         <div className="abstract_style"> Conceptual Analyzer for Structural Mechanics
+        <Button startIcon={<LaunchIcon/>} color="primary" target="__blank" href={`https://drive.google.com/file/d/1x_qr05i3qlSTEeRMyGrPCULOfUeHWSbe/view?usp=share_link`}> </Button>  
 </div>
+
         <div style={{color:"white"}}>A software dedicated to training the ability of conceptual analysis in structural mechanics</div>
         <div className="stack_frame">
         <FontAwesomeIcon icon={faPython} color="#5ED4F4" fontSize={30} className='icon_style' style={{margin:"5px"}}/>

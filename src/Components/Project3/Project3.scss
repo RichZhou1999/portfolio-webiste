@@ -1,20 +1,24 @@
 .task_frame{
-    display: block;
     position:absolute;
+    left:100px;
     top:10%;
-    left:20%;
     .abstract_style{
         color:white;
         font-size: 50px;
     }
 
 }
-.stack_frame{
-    display: flex;
-}
+// .stack_frame{
+//     display: flex;
+// }
 .library_description{
-    width:50%;
-    font-size: 20px;
+    width:80%;
+    font-size: 2.5vh;
     color: white;
-    
+    // margin:2vh;
+    h{
+        margin-top:2vh;
+        font-size: 4vh;
+        color: white;
+    }
 }

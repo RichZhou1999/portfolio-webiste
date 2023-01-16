@@ -9,6 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3, faGitAlt, faJava, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
 import {SiSpringboot} from 'react-icons/si'
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import LaunchIcon from '@mui/icons-material/Launch';
+import Button from '@mui/material/Button';
+
 const Project4 = ()=>{
 
     const project_tasks = [
@@ -24,7 +27,9 @@ const Project4 = ()=>{
 
     return (<>
         <div className="task_frame">
-        <div className="abstract_style"> Task Manager</div>
+        <div className="abstract_style"> Task Manager
+        <Button startIcon={<LaunchIcon/>} color="primary" target="__blank" href={`http://task-manager-react-app.s3-website-us-west-1.amazonaws.com `}> </Button>  
+        </div>
         <div className="stack_frame">
         <FontAwesomeIcon icon={faJava} color="brown"/>
         <FontAwesomeIcon icon={faReact} color="#5ED4F4" fontSize={30} className='icon_style' style={{margin:"5px"}}/>

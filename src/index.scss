@@ -1,1 +1,6 @@
 @import "react-alice-carousel/lib/scss/alice-carousel.scss";
+@media screen and (max-width: 1200px) {
+    body {
+      overflow: visible;
+    }
+  }

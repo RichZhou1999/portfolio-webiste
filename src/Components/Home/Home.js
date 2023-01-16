@@ -30,8 +30,8 @@ const Home = ()=>{
              <br/> */}
              </h1>
              <h2>Systems Engineering, UC Berkeley</h2>
-             <h2>self-motivated and code enthusiasts</h2>
-             <Link to="/contact" className="flat-button">CONTACT ME</Link>
+             <h2>self-motivated and code-enthusiastic</h2>
+             <Link to="/contact" className="flat_button_home">CONTACT ME</Link>
         </div>
         <img className="portrait_img" src={yihua_portrait} />
         </div>

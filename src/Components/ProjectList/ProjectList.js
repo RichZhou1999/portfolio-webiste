@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import sca_icon from "../../assets/images/sca_icon.png"
 import movie_icon from "../../assets/images/movie_icon.jpeg"
 import book_icon from "../../assets/images/book_icon.jpeg"
+import EV_icon from "../../assets/images/EV_icon.png"
 import task_manager_icon from "../../assets/images/task_manager-icon.jpeg"
 import project_1_src from "../../assets/images/logo1.png"
 import project_2_src from "../../assets/images/logo2.png"
@@ -44,13 +45,13 @@ const ProjectList = ()=>{
         end_time:2022.12,
         project_name:"MovieHub Web Application with recommendation"
     },
-        {src:book_icon,
-            start_time:2022.2,
-            end_time:2022.3,
-            project_name:"Web Application for a library system"},
+        {src: EV_icon,
+            start_time:2022.9,
+            end_time:2022.12,
+            project_name:"Prediction of EV Adoption with ML model"},
         {src:task_manager_icon,
-            start_time:2022.12,
-            end_time:2023.1,
+            start_time:2022.2,
+            end_time:2022.4,
             project_name:"Task Manager Web Application"}
     ]
     return (
