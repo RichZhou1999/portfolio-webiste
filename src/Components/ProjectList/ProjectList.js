@@ -4,6 +4,8 @@ import sca_icon from "../../assets/images/sca_icon.png"
 import movie_icon from "../../assets/images/movie_icon.jpeg"
 import book_icon from "../../assets/images/book_icon.jpeg"
 import EV_icon from "../../assets/images/EV_icon.png"
+import EV_prediction_icon from "../../assets/images/EV_prediction_icon.png"
+import cuda_icon from "../../assets/images/cuda_icon.png"
 import task_manager_icon from "../../assets/images/task_manager-icon.jpeg"
 import project_1_src from "../../assets/images/logo1.png"
 import project_2_src from "../../assets/images/logo2.png"
@@ -45,14 +47,18 @@ const ProjectList = ()=>{
         end_time:2022.12,
         project_name:"MovieHub Web Application with recommendation"
     },
-        {src: EV_icon,
+        {src: EV_prediction_icon,
             start_time:2022.9,
             end_time:2022.12,
             project_name:"Prediction of EV Adoption with ML model"},
-        {src:task_manager_icon,
-            start_time:2022.2,
-            end_time:2022.4,
-            project_name:"Task Manager Web Application"}
+        {src:EV_icon,
+            start_time:2023.2,
+            end_time:2023.5,
+            project_name:"Analysis and control for emission-based smart EV charging"},
+        {src:cuda_icon,
+            start_time:2023.2,
+            end_time:2023.5,
+            project_name:"Acceleration of agent-based diffusion model with parallel technics "}
     ]
     return (
         <>
