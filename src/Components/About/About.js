@@ -49,7 +49,7 @@ const About = ()=>{
                     /> */}
                 </h1> 
                 <p>
-                My name is Yihua Zhou. Now I am a master's student at UC Berkeley,majoring in systems engineering.<br/>
+                My name is Yihua Zhou. Now I am a master's student at UC Berkeley, majoring in systems engineering.<br/>
                 I am a self-motivated and diligent person. Also I am keen on coding.
                 I always get great joy in the process of coding.
                 </p>
@@ -60,7 +60,7 @@ const About = ()=>{
                 ready to devote myself in the field of tech.
                 </p>
                 <p>
-                I am now looking for an intership working as a software development/data engineer. <br/>
+                I am now looking for a chance working as a machine learning engineer/ software engineer. <br/>
                 Feel free to contact me and 
                 I am open to any chances.
                 </p>
