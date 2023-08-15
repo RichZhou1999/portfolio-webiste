@@ -38,15 +38,60 @@ const Project5 = ()=>{
         {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" fontSize={30} className='icon_style'/> */}
         {/* <FontAwesomeIcon icon={faDatabase} color="#28A4D9" fontSize={30} className='icon_style' style={{margin:"5px"}}/>
         <SiSpringboot fontSize={"30px"} color="lightgreen" style={{margin:"5px"}}/> */}
+        
         </div>
-        {
+
+        <div className="library_description">
+        This project aims to accelerate the simulation of electric vehicles adoption with different
+        techiques.
+        <br>
+        </br>
+        <b>
+        The first method for acceleration is to convert the python code into c++
+        </b>
+        <br>
+        </br>
+        <b>
+        The second step method for acceleration is to use openMP to accelerate the generation of social network. 
+        </b>
+        <br>
+        </br>
+        <b>
+        The third step method for acceleration is to use CUDA to accelerate the adoption history of EV. 
+        </b>
+
+
+        </div>
+
+        <h className="subtitle">c++ and python code comparison</h>
+        <div>
+        <img src={acceleration_1} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+        <h className="subtitle">OpenMp and serial code comparison</h>
+        <div>
+        <img src={acceleration_2} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+        <h className="subtitle">Strong scaling</h>
+        <div>
+        <img src={acceleration_3} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+        <h className="subtitle">CUDA results</h>
+        <div>
+        <img src={acceleration_4} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+
+        {/* {
             project_tasks.map((task, i)=>{
                 return <ProjectCell 
                 src={task.src} 
                 description={task.description}
                 key={i}/>
             })
-        }
+        } */}
         </div>
     </>)    
 }

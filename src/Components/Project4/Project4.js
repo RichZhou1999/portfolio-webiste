@@ -42,15 +42,53 @@ const Project4 = ()=>{
         {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" fontSize={30} className='icon_style'/> */}
         {/* <FontAwesomeIcon icon={faDatabase} color="#28A4D9" fontSize={30} className='icon_style' style={{margin:"5px"}}/>
         <SiSpringboot fontSize={"30px"} color="lightgreen" style={{margin:"5px"}}/> */}
+        
+        <div className="library_description">
+        As the population of Electric Vehicles (EV) grows, the demand for electricity will increase drastically.
+        <br></br>
+        For users who decide to charge at home, they often choose to charge the vehicle overnight since that is when the vehicle is not in use. 
+        <br>
+        </br>
+        This presents a problem as emission is the highest during the evening since the energy portfolio during the night lacks the renewable resource from solar energy.
+        <br>
+        </br>
+        In this project, we aim to discover <b>how much emission can be saved </b>by <b>shifting the changing time and controlling the behavior of charging with optimization/RL algorithm</b>.
+
         </div>
-        {
+        </div>
+        {/* {
             project_tasks.map((task, i)=>{
                 return <ProjectCell 
                 src={task.src} 
-                description={task.description}
+                // description={task.description}
                 key={i}/>
             })
-        }
+        } */}
+        <h className="subtitle">Components</h>
+        <div>
+        <img src={analysis_charging_0} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+        <h className="subtitle">Real charing data</h>
+        <div>
+        <img src={analysis_charging_1} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+
+        <h className="subtitle">Prediction of emission curve with NN</h>
+        <div>
+        <img src={analysis_charging_2} width="60%" style={{margin:"2vh"}}/>
+        </div>
+
+
+        <h className="subtitle">Shift charging result</h>
+        <div>
+        <img src={analysis_charging_3} width="60%" style={{margin:"2vh"}}/>
+        </div>
+        <h className="subtitle">Vehicle to grid result</h>
+        <div>
+        <img src={analysis_charging_4} width="60%" style={{margin:"2vh"}}/>
+        </div>
         </div>
     </>)    
 }

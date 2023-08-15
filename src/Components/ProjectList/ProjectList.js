@@ -64,14 +64,13 @@ const ProjectList = ()=>{
         <>
         <div className="project_list_div">
             {
-               project_list.map((project,i)=>{
+               project_list.toReversed().map((project,i)=>{
                 const handleClick=()=>{
-                    setSelection(i)
-                    console.log("123")
+                    setSelection(project_list.length -1 -i)
                 }
                 return(
                 <div className="one_project_div" onClick={(e)=>{handleClick()}}>
-                <img className="item_img" src={project.src} role="presentation" />
+                <img className="item_img" src={project.src} role="presentation"/>
                 <b> {project.project_name}
                 <br/>
                     {project.start_time} -&gt; {project.end_time} 
